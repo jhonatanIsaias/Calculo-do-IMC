@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    outline: none;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/young-fitness-man-in-studio.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+   
+}
+.organizar{
+   margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #242124;
+    border-radius: 1rem;
+    width: 50%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.organizar form{
+    display: flex;
+    width:80%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 1rem;
+   
+}
+.Title-conteiner{
+    color:#6d9eee;
+    text-align: center;
+    padding-bottom:0.3rem;
+    font-size: 1.25rem;
+   
+}
+.Title-conteiner h1{
+    padding-bottom: 0.5rem;
+}
+.organizar form input[type=text], input[type=email]{
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+.organizar form input:focus{
+    border:1px solid #14141B;
+}
+.organizar form label{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color:#6d9eee;
+    padding-bottom: 0.2rem;
+}
+.organizar form button{
+   background-color: #6d9eee;
+   color:#242124;
+   font-family: 'Kdam Thmor Pro', sans-serif;
+   cursor: pointer;
+   font-weight: bold;
+    text-align: center;
+   border: none;
+   transition: all 0.5s ease-in-out;
+}
+.organizar form button:hover{
+    background-color:rgb(22, 21, 21);
+   color:#4F1053;
+}
+.organizar table{
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color:#6d9eee;
+}
+.organizar h1{
+    color:#6d9eee;  
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+    font-size: 2rem;
+}
+.paragrafo-resultado{
+    background-color: rgb(146, 194, 146);
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.bad{
+    background-color: rgb(202, 73, 73);
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+.resultado{
+    text-align:center;
+    width:60%;
+}
+@media (max-width:500px){
+    .organizar{
+        width: 100%;
+        margin: 0;
+    }
+}
+
